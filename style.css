@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: rgb(208, 183, 140);
+}
+
+h1{
+    display: grid;
+    place-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+button{
+    display: grid;
+    place-content: center;
+    width: 100%;
+}
+.nav_knopki{
+    display: grid;
+    place-content: center;
+    height: 40px;
+    width: 100%;
+    gap: 0.3rem;
+    grid-template-columns: repeat(2,500px);
+}
+.knopka1{
+    display: grid;
+    height: 40px;
+    margin-left: -18px;
+    width: 518px;
+    place-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(111, 153, 216);
+    border: none;
+}
+.knopka2{
+    display: grid;
+    place-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+    width: 517px;
+    background-color: rgb(199, 116, 43);
+    border: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box{
+    display: grid;
+    place-content: center;
+    padding: 3px;
+    gap: 0.2rem;
+    width: 100%;
+    background-color: white;
+    grid-template-columns: repeat(6,170px);
+    grid-template-rows: repeat(3,200px);
+}
+.nine{
+    display: grid;
+    grid-column: 1/1;
+    grid-row: 1/4;
+}
+.three{
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.four{
+    display: grid;
+    grid-column: 3/3;
+    grid-row: 1/2;
+}
+.one{
+    display: grid;
+    grid-column: 4/6;
+    grid-row: 1/1;
+}
+.three2{
+    display: grid;
+    grid-column: 6/6;
+    grid-row: 1/1;
+}
+.five{
+    display: grid;
+}
+.two{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/2;
+}
+.six{
+    display: grid;
+    grid-column: 3/3;
+    grid-row: 2/2;
+}
+.four2{
+    display: grid;
+    grid-column: 4/4;
+    grid-row: 2/2;
+}
+.five3{
+    display: grid;
+    grid-column: 5/5;
+    grid-row: 2/2;
+}
+.nine2{
+    display: grid;
+    grid-column: 6/6;
+    grid-row: 2/4;
+}
+.seven{
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+.six2{
+    display: grid;
+    grid-column: 4/4;
+    grid-row: 3/3;
+}
+.eight{
+    display: grid;
+    grid-column: 5/5;
+    grid-row: 2/3;
+}
+
